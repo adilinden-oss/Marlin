@@ -75,7 +75,7 @@
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 // Define a custom build version
-#define SHORT_BUILD_VERSION "2.0.9.3-2"
+#define SHORT_BUILD_VERSION "2.0.9.3-3"
 
 /**
  * *** VENDORS PLEASE READ ***
@@ -560,15 +560,15 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 235
-#define HEATER_1_MAXTEMP 235
-#define HEATER_2_MAXTEMP 235
-#define HEATER_3_MAXTEMP 235
-#define HEATER_4_MAXTEMP 235
-#define HEATER_5_MAXTEMP 235
-#define HEATER_6_MAXTEMP 235
-#define HEATER_7_MAXTEMP 235
-#define BED_MAXTEMP      80
+#define HEATER_0_MAXTEMP 275
+#define HEATER_1_MAXTEMP 275
+#define HEATER_2_MAXTEMP 275
+#define HEATER_3_MAXTEMP 275
+#define HEATER_4_MAXTEMP 275
+#define HEATER_5_MAXTEMP 275
+#define HEATER_6_MAXTEMP 275
+#define HEATER_7_MAXTEMP 275
+#define BED_MAXTEMP      125
 #define CHAMBER_MAXTEMP  60
 
 /**
@@ -1878,9 +1878,9 @@
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "PLA+"
-#define PREHEAT_2_TEMP_HOTEND 200
-#define PREHEAT_2_TEMP_BED     50
+#define PREHEAT_2_LABEL       "PETG"
+#define PREHEAT_2_TEMP_HOTEND 240
+#define PREHEAT_2_TEMP_BED     70
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
